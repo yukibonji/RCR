@@ -1,0 +1,15 @@
+source https://api.nuget.org/v3/index.json
+framework: >= net46
+
+nuget FAKE
+
+group Build
+    source https://api.nuget.org/v3/index.json
+    framework: >= net46
+    nuget FSharp.Core
+    nuget Excel-DNA
+
+group Test
+    source https://api.nuget.org/v3/index.json
+    framework: >= net46
+    nuget expecto

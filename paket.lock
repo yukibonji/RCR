@@ -1,0 +1,27 @@
+RESTRICTION: >= net46
+NUGET
+  remote: https://api.nuget.org/v3/index.json
+    FAKE (4.61.3)
+
+GROUP Build
+RESTRICTION: >= net46
+NUGET
+  remote: https://api.nuget.org/v3/index.json
+    Excel-DNA (0.34.6)
+      ExcelDna.AddIn (0.34.6)
+    ExcelDna.AddIn (0.34.6)
+      ExcelDna.Integration (0.34.6)
+    ExcelDna.Integration (0.34.6)
+    FSharp.Core (4.2.1)
+
+GROUP Test
+RESTRICTION: >= net46
+NUGET
+  remote: https://api.nuget.org/v3/index.json
+    Argu (3.7)
+    Expecto (5.0)
+      Argu (>= 3.7)
+      FSharp.Core (>= 4.1.12)
+      Mono.Cecil (>= 0.10.0-beta5)
+    FSharp.Core (4.2.1)
+    Mono.Cecil (0.10.0-beta6)
